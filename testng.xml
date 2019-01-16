@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<!-- parallel="tests" -->
+
+	<listeners>
+		<listener class-name="com.uno.extentReportListener.ExtentReporterNG" />
+
+
+	<!-- 	<listener class-name="com.uno.analyzer.MyTransformer" /> -->
+
+
+	</listeners>
+
+
+
+	
+	<!-- <test name="SD_LoginTest">
+		<groups>
+			<define name="all">
+				<include name="Smoke Testing" />
+				<include name="Regression Testing" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.uno.test.sd.SD_LoginTest" />
+		</classes>
+	</test>  -->
+	
+<!-- 	<test name="SD_TicketSummaryTest">
+		<groups>
+		<define name="all">	
+			<include name="Smoke Testing" />
+				<include name="Regression Testing" />	
+				<include name="Testing With Super" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.uno.test.sd.SD_TicketSummaryTest" />
+		</classes>
+	</test>
+	
+	<test name="SD_CreateNewTest">
+
+		<groups>
+
+			<define name="all">	
+			<include name="Smoke Testing" />
+				<include name="Regression Testing" />	
+				<include name="Testing With Super" />
+			</define>
+
+			<run>
+				<include name="all" />
+			</run>
+
+		</groups>
+
+		<classes>
+			<class name="com.uno.test.sd.SD_CreateNewTest" />
+		</classes>
+	</test>
+	
+	
+	<test name="SD_ViewTicketTest">
+
+		<groups>
+
+			<define name="all">	
+			<include name="Smoke Testing" />
+				<include name="Regression Testing" />	
+				<include name="Testing With Super" />
+			</define>
+
+			<run>
+				<include name="all" />
+			</run>
+
+		</groups>
+
+
+		<classes>
+			<class name="com.uno.test.sd.SD_ViewTicketTest" />
+		</classes>
+	</test> -->
+	
+	<!-- <test name="SD_EditTicketTest">
+
+		<groups>
+
+			<define name="all">	
+			<include name="Smoke Testing" />
+				<include name="Regression Testing" />	
+				<include name="Testing With Super" />
+			</define>
+
+			<run>
+				<include name="all" />
+			</run>
+
+		</groups>
+
+
+		<classes>
+			<class name="com.uno.test.sd.SD_EditTicketTest" >
+			<methods>
+			
+           <include name="VerifyRequestorOrIncidentTab"/>
+           <include name="DisplayPopupForEnterAddress"/>
+            <include name="OverrideCustomerAddress"/>
+             <include name="CountTotalPauseTimeInPauseTab"/>
+              <include name="PauseTheTicketAutomatically"/>
+              <include name="CheckNotificationWithoutSelectionInSpareDetailsPage"/>
+               <include name="CheckVendorDropdown"/>
+                 <include name="CheckUpdateDetailFunctionality"/>
+                   <include name="CheckFileAttachmentFunctionality"/>
+         
+        </methods>
+		</class>
+		</classes>
+	</test> -->
+	
+	<test name="Technician_EditIncidentTest">
+	<!-- <groups>
+			<define name="all">
+				<include name="Spare Tab - Spare Details" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups> -->
+		
+		<classes>
+			<class name="com.uno.test.technician.Technician_TicketSummaryTest" >	
+		</class>
+		</classes>
+	</test>
+
+</suite> 
