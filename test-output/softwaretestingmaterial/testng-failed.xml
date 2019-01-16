@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" name="testngTest(failed)">
+    <groups>
+      <run>
+        <include name="Car"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="DisplayColumnHeader"/>
+          <include name="DisplayDescendingOrderOfIncidentID"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

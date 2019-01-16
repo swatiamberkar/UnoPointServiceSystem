@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="com.UnoPoint.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.UnoPoint.Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="CompareCloseDateTimeWithTechnicianDateTime"/>
+          <include name="DisplayNotificationWithoutETAinATATab"/>
+          <include name="CheckWithFaultySpare"/>
+          <include name="CheckATADateAndTimeWithETADateAndTime"/>
+          <include name="CountTotalPauseTimeInPauseTab"/>
+          <include name="checkAppointmentDateAndTime"/>
+          <include name="CloseTicket"/>
+          <include name="OverrideCustomerAddress"/>
+          <include name="SelectSpareWithDeviceAndTechClose"/>
+          <include name="CheckAlertPopup"/>
+          <include name="DisplayColumnHeader"/>
+          <include name="CheckSubmitButtonWithAllFieldFill"/>
+          <include name="CheckTransactionType"/>
+          <include name="ViewTicket"/>
+          <include name="DisplayPopupForEnterAddress"/>
+          <include name="SelectTechnicianCloseWithSerialNo"/>
+          <include name="MatchPopUpWithBlankUpdateSerialNoField"/>
+          <include name="DisplayAlertWithoutSelectMachineAvailable"/>
+          <include name="CheckSendMailLinkInPOTab"/>
+          <include name="CheckAlertPopupWithoutData"/>
+          <include name="CheckETADateField"/>
+          <include name="CheckAfterClikOnEditLink"/>
+          <include name="MatchReplacedSerialWithFinalCloseSerialNumber"/>
+          <include name="SelectStatusFilter"/>
+          <include name="CheckFileAttachmentFunctionality"/>
+          <include name="SelectOpenCTSFilterTextBox"/>
+          <include name="CompareCloseDateWithTechnicianDateTime"/>
+          <include name="CheckPartCodeFieldOfSpareDetailsPage"/>
+          <include name="MatchUpdatedDetailesOfATA"/>
+          <include name="TearDown"/>
+          <include name="MatchPopUpWithUpdateSerialNoFieldFill"/>
+          <include name="checkEditButtonAfterTechnicianClose"/>
+          <include name="CheckNotificationWithoutSelectionInTechnicianCloseTab"/>
+          <include name="VerifyTSDfieldWithBlank"/>
+          <include name="Login"/>
+          <include name="MatchResumeDateAndTimeInPauseTab"/>
+          <include name="CheckCancelButtonCancelTicketDetails"/>
+          <include name="MatchFileType"/>
+          <include name="CheckUpdatedDetailsInVCTTab"/>
+          <include name="DisplaySamePauseReason"/>
+          <include name="CheckBlinkingNotification"/>
+          <include name="CheckUpdateButtonWithEnteringData"/>
+          <include name="CheckAlertPopupAfterCancel"/>
+          <include name="CheckATADateAndTimeWithIncidentDateAndTime"/>
+          <include name="CheckCancelButtonFunctionality"/>
+          <include name="ClosePinkTicket"/>
+          <include name="writeResult"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

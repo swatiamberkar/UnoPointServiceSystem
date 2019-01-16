@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  FirefoxTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FirefoxTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 06 11:45:16 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93350 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>all Regression Testing </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.CheckATADateAndTimeWithETADateAndTime()'><b>CheckATADateAndTimeWithETADateAndTime</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: If user select ATA date and Time less than ETA Date and Time then notification should display as ' Incident Updated Successfully  ' and data/time should get update on ATA tab</td>
+<td></td>
+<td>7</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.CheckATADateAndTimeWithIncidentDateAndTime()'><b>CheckATADateAndTimeWithIncidentDateAndTime</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: If user select ATA date and Time less than Incident Date and Time then notification should display as ' ATA Date Time should be greater than Incident Date Time '</td>
+<td></td>
+<td>24</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.CheckAutoResumeDateField()'><b>CheckAutoResumeDateField</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: User should not enter manual entry in Auto Resume Date field</td>
+<td></td>
+<td>0</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.DisplayAlertWithoutSelectMachineAvailable()'><b>DisplayAlertWithoutSelectMachineAvailable</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: In ATA tab if user doesnot select Machine Available option then notification should display as 'Please Select Machine Availability.'</td>
+<td></td>
+<td>3</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.DisplayListOfPauseReasonsPopup()'><b>DisplayListOfPauseReasonsPopup</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: If user click on list symbol of 'Reason To Pause' field,  List of Pause Reasons popup should display with pause reasons</td>
+<td></td>
+<td>0</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.DisplayNotificationWhenTicketPause()'><b>DisplayNotificationWhenTicketPause</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: Display Notification When Ticket Pause</td>
+<td></td>
+<td>0</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.DisplayNotificationWithoutETAinATATab()'><b>DisplayNotificationWithoutETAinATATab</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: After select only  technician and appointment date/time in ETA tab and if user click on Edit button in ATA tab then notification should display as 'Please Select ETA And Technician First.'</td>
+<td></td>
+<td>16</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.MatchResumeDateAndTimeAndPauseReason()'><b>MatchResumeDateAndTimeAndPauseReason</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: 1. If user click on hyperlink any pause reason then same should get filled into Reason To Pause field2. If user click on calender symbol of Auto resume date field then same date should get filled </td>
+<td></td>
+<td>9</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.MatchUpdatedDetailesOfATA()'><b>MatchUpdatedDetailesOfATA</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: If User select 'Yes' in Machine Available option and select ATA date/time then same should get reflect in ATA tab</td>
+<td></td>
+<td>7</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+<tr>
+<td title='com.uno.testCases.sd.SD_EditTicketTest.OpenPauseDetailsPage()'><b>OpenPauseDetailsPage</b><br>Test class: com.uno.testCases.sd.SD_EditTicketTest<br>Test method: To check the functionality of Edit ticket-Pause tab-after click on Edit button, Pause details popup should get open</td>
+<td></td>
+<td>0</td>
+<td>com.uno.testCases.sd.SD_EditTicketTest@1e730495</td></tr>
+</table><p>
+</body>
+</html>

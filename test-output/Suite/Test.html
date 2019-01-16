@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 27 14:53:08 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>722 seconds (722862 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.DemoTestCase.CheckRejectButtonInSCM()'><b>CheckRejectButtonInSCM</b><br>Test class: testCases.DemoTestCase<br>Test method: Reject the spare in scm</td>
+<td></td>
+<td>96</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.CheckStatusAfterFinalClose()'><b>CheckStatusAfterFinalClose</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>4</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.CreateTicket()'><b>CreateTicket</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>125</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.DispalyDefaultIncidentDateTime()'><b>DispalyDefaultIncidentDateTime</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.DisplayDefaultIncidentNo()'><b>DisplayDefaultIncidentNo</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.DisplayDefaultcloseDateTime()'><b>DisplayDefaultcloseDateTime</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.DisplayDefaultcreateByRoleElement()'><b>DisplayDefaultcreateByRoleElement</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.KEDB()'><b>KEDB</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>5</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.TitleOfCreateNewPage()'><b>TitleOfCreateNewPage</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>3</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.VarifyAssertId()'><b>VarifyAssertId</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>5</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.VarifyTechnicianName()'><b>VarifyTechnicianName</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.VerifyTicketDateTime()'><b>VerifyTicketDateTime</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.activity()'><b>activity</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>10</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.addRequiredSpareInSD()'><b>addRequiredSpareInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>15</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.addRequiredSpareInSD()'><b>addRequiredSpareInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>15</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.assignTSDInPreliminaryAnalysis()'><b>assignTSDInPreliminaryAnalysis</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>32</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.assignTechnicianAndPunchETA()'><b>assignTechnicianAndPunchETA</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>31</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkApproveButtonOfSpareRequestInRM()'><b>checkApproveButtonOfSpareRequestInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>25</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkAscendingOrderOfSpareRequestIdInRM()'><b>checkAscendingOrderOfSpareRequestIdInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>0</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkDescendingOrderOfSpareRequestIdInSCM()'><b>checkDescendingOrderOfSpareRequestIdInSCM</b><br>Test class: testCases.DemoTestCase<br>Test method: In  SCM login->Inventory-> Validation Spare Request, all spare request should display in Descending order (latest one should display first)</td>
+<td></td>
+<td>13</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkNotificationWithSelectionInTechnicianCloseTab()'><b>checkNotificationWithSelectionInTechnicianCloseTab</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>27</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkPartName()'><b>checkPartName</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>26</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkRejectButtonOfSpareRequestInRM()'><b>checkRejectButtonOfSpareRequestInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>27</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkSpareRemarkGivenByRMInSD()'><b>checkSpareRemarkGivenByRMInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>24</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkSpareRemarkGivenBySDInRM()'><b>checkSpareRemarkGivenBySDInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>8</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkStatusAfterApproveBySCMInLogistic()'><b>checkStatusAfterApproveBySCMInLogistic</b><br>Test class: testCases.DemoTestCase<br>Test method: After approve spare request from SCM login, same entry should display in Logistic login-> Spare Details Report-> Inventory Required tab with Spare request status as 'Open' , SCM Test Status as 'Valid' and TM Status as 'ApprovedAtSCM' </td>
+<td></td>
+<td>18</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkStatusAfterRejectBySCMInSD()'><b>checkStatusAfterRejectBySCMInSD</b><br>Test class: testCases.DemoTestCase<br>Test method: if the spare is Reject by SCM then in sd status is change to Approve At SCM</td>
+<td></td>
+<td>17</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkStatusOfSpareRequestAfterApproveAndRejectByRMInSD()'><b>checkStatusOfSpareRequestAfterApproveAndRejectByRMInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>17</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.checkStatusOfSpareRequestAfterApproveBySCMInSD()'><b>checkStatusOfSpareRequestAfterApproveBySCMInSD</b><br>Test class: testCases.DemoTestCase<br>Test method: if the spare is approve by SCM then in sd status is change to Approve At SCM</td>
+<td></td>
+<td>18</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.closeTicket()'><b>closeTicket</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>31</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.matchSpareRequestIdAndCheckApproveAndRejectButtonInSCM()'><b>matchSpareRequestIdAndCheckApproveAndRejectButtonInSCM</b><br>Test class: testCases.DemoTestCase<br>Test method: if the spare is approve by RM then in SCM it should showing the status is open with Approve and Reject button is enable</td>
+<td></td>
+<td>9</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.matchSpareRequestIdInRM()'><b>matchSpareRequestIdInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>9</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.matchSpareRequestIdInSD()'><b>matchSpareRequestIdInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>8</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.matchTheSpareRemarkInSD()'><b>matchTheSpareRemarkInSD</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>24</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.punchATA()'><b>punchATA</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>27</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.remark()'><b>remark</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>9</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+<tr>
+<td title='testCases.DemoTestCase.updateSpareRemarkInRM()'><b>updateSpareRemarkInRM</b><br>Test class: testCases.DemoTestCase</td>
+<td></td>
+<td>9</td>
+<td>testCases.DemoTestCase@1198b989</td></tr>
+</table><p>
+</body>
+</html>

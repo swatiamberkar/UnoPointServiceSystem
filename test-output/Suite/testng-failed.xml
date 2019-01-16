@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.uno.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Technician_EditIncidentTest(failed)">
+    <classes>
+      <class name="com.uno.test.technician.Technician_TicketSummaryTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="ViewTicket"/>
+          <include name="TotalCountOfRequestSLAColdTab"/>
+          <include name="VerifyTotalCountAndStatusOfRequestsOpenTab"/>
+          <include name="TotalCountOfETAExpiredAndNoATATab"/>
+          <include name="TotalCountOfRequestSLAViolatedTab"/>
+          <include name="writeResult"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.uno.test.technician.Technician_TicketSummaryTest -->
+    </classes>
+  </test> <!-- Technician_EditIncidentTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

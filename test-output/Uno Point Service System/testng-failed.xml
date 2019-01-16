@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Uno Point Service System]">
+  <test thread-count="5" name="Search Ticket Tab(failed)">
+    <groups>
+      <run>
+        <include name="Search Ticket Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="SearchAssertIdTextBoxBlankData"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Search Ticket Tab(failed) -->
+  <test thread-count="5" name="Filter Tab(failed)">
+    <groups>
+      <run>
+        <include name="Filter Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="FilterTab"/>
+          <include name="viewTicket"/>
+          <include name="SelectStatusFilter"/>
+          <include name="SelectOpenCTSFilterTextBox"/>
+          <include name="CompareTicketTypeFilter"/>
+          <include name="login"/>
+          <include name="selectCloseCTSFilterTextBox"/>
+          <include name="SelectStateFilter"/>
+          <include name="CompareStateFilter"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Filter Tab(failed) -->
+  <test thread-count="5" name="Requestor / Incident Tab(failed)">
+    <groups>
+      <run>
+        <include name="Requestor / Incident Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="DownloadFile"/>
+          <include name="CheckIncidentHistoryOfCustomerPage"/>
+          <include name="CheckUploadFileButtonWithFile"/>
+          <include name="DisplayRequestOrIncidentTab"/>
+          <include name="login"/>
+          <include name="CheckUpdatedTicketDetails"/>
+          <include name="CheckSerialNoHyperlinkInRequesterTab"/>
+          <include name="OverrideCustomerAddress"/>
+          <include name="CheckUploadFileButtonWithoutFile"/>
+          <include name="CompareIdOfRequesterOrIncidentTab"/>
+          <include name="checkIncidentHistoryOfAssetIdPage"/>
+          <include name="DisplayListOfFilePage"/>
+          <include name="DisplayPopupForEnterAddress"/>
+          <include name="MatchFileType"/>
+          <include name="displayFileUploadWindow"/>
+          <include name="DisplayTicketDetailsPopup"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Requestor / Incident Tab(failed) -->
+  <test thread-count="5" name="Preliminary Analysis Tab(failed)">
+    <groups>
+      <run>
+        <include name="Preliminary Analysis Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="DisplayTSDAssignDetail"/>
+          <include name="viewTicket"/>
+          <include name="CheckTechnicalStatusField"/>
+          <include name="VerifyTsdTextBox"/>
+          <include name="CheckUpdateDetailButton"/>
+          <include name="login"/>
+          <include name="CheckCancelButton"/>
+          <include name="CompareTsd"/>
+          <include name="VerifyTSDfieldWithBlank"/>
+          <include name="MatchTechnician"/>
+          <include name="CheckCustomerNameContactNoTextBox"/>
+          <include name="CheckObservationTextBox"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Preliminary Analysis Tab(failed) -->
+  <test thread-count="5" name="ETA and Technician Tab(failed)">
+    <groups>
+      <run>
+        <include name="ETA and Technician Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="CheckETATime"/>
+          <include name="CheckTechnicianAutoSuggest"/>
+          <include name="MatchETADateTime"/>
+          <include name="CheckWithBlankTechnician"/>
+          <include name="DisplayTechnicianAssignAndETADetails"/>
+          <include name="checkAppointmentDateAndTime"/>
+          <include name="login"/>
+          <include name="CheckOkButtonOfPopUp"/>
+          <include name="MatchTechnicianName"/>
+          <include name="DisplayListOfYourTechniciansWindow"/>
+          <include name="CheckETAAndSLA"/>
+          <include name="CheckAlertMessage"/>
+          <include name="CheckETADateField"/>
+          <include name="CheckResendSMSButton"/>
+          <include name="CheckCancelButtonFunctionality"/>
+          <include name="CheckETATechnician"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- ETA and Technician Tab(failed) -->
+  <test thread-count="5" name="ATA Tab(failed)">
+    <groups>
+      <run>
+        <include name="ATA Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="DisplayNotificationWithoutETAinATATab"/>
+          <include name="PauseTheTicketAutomatically"/>
+          <include name="CheckATADateAndTimeWithETADateAndTime"/>
+          <include name="MatchUpdatedDetailesOfATA"/>
+          <include name="login"/>
+          <include name="DisplayAlertWithoutSelectMachineAvailable"/>
+          <include name="CheckATADateAndTimeWithIncidentDateAndTime"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- ATA Tab(failed) -->
+  <test thread-count="5" name="Pause Tab(failed)">
+    <groups>
+      <run>
+        <include name="Pause Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="MatchResumeDateAndTimeInPauseTab"/>
+          <include name="viewTicket"/>
+          <include name="OpenPauseDetailsPage"/>
+          <include name="DisplayTotalPauseTimeWhenTicketOpen"/>
+          <include name="CheckAutoResumeDateField"/>
+          <include name="DisplaySamePauseReason"/>
+          <include name="DisplayListOfPauseReasonsPopup"/>
+          <include name="CountTotalPauseTimeInPauseTab"/>
+          <include name="login"/>
+          <include name="DisplayNotificationWhenTicketPause"/>
+          <include name="DisplayNotificationWithoutETAAndATAinPauseTab"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Pause Tab(failed) -->
+  <test thread-count="5" name="Spare Tab With Inventory(failed)">
+    <groups>
+      <run>
+        <include name="Spare Tab With Inventory"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="MatchNotificationOfWithoutPartCode"/>
+          <include name="CheckSpareTabWithYesSelect"/>
+          <include name="MatchNotificationOfWithoutStatus"/>
+          <include name="MatchTechnicianCloseMessageDevice"/>
+          <include name="SelectNonConsumableProduct"/>
+          <include name="SetWithInverorySettingInSuperRole"/>
+          <include name="checkListOfAvailableSparesWindow"/>
+          <include name="CheckWithFaultySpare"/>
+          <include name="login"/>
+          <include name="CheckWithoutEnteringSerialNumber"/>
+          <include name="MatchPartname"/>
+          <include name="checkReplaceSpareWithTab"/>
+          <include name="CheckTransactionType"/>
+          <include name="MatchNotification"/>
+          <include name="CheckUpdateButtonWithEnteringData"/>
+          <include name="MatchTechnicianCloseMessageWithComponent"/>
+          <include name="CheckPartCodeField"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Spare Tab With Inventory(failed) -->
+  <test thread-count="5" name="Remarks Tab(failed)">
+    <groups>
+      <run>
+        <include name="Remarks Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="CheckRemarkInRemarkTab"/>
+          <include name="login"/>
+          <include name="CheckAlertPopupAfterCancel"/>
+          <include name="CheckAlertPopupWithoutData"/>
+          <include name="CheckAlertPopup"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Remarks Tab(failed) -->
+  <test thread-count="5" name="Activity tab(failed)">
+    <groups>
+      <run>
+        <include name="Activity tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="CheckWithoutSelectingActivityDetails"/>
+          <include name="MatchAddActivityPopUp"/>
+          <include name="login"/>
+          <include name="CheckWithBlankDate"/>
+          <include name="MatchDateAndTime"/>
+          <include name="CheckWithoutSelectingActivityStatus"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Activity tab(failed) -->
+  <test thread-count="5" name="VCT Tab - Purchase Order(failed)">
+    <groups>
+      <run>
+        <include name="VCT Tab - Purchase Order"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="CheckHeadingOfVCTTab"/>
+          <include name="checkHeadingOfVendorCommercialPODetailsPopup"/>
+          <include name="viewTicket"/>
+          <include name="CheckAmountInVendorCommercialPODetailsPopup"/>
+          <include name="CheckUpdatedDetailsInVCTTab"/>
+          <include name="login"/>
+          <include name="CheckNotificationWithoutVendor"/>
+          <include name="CheckSendMailLinkInPOTab"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- VCT Tab - Purchase Order(failed) -->
+  <test thread-count="5" name="VCT Tab - Payments(failed)">
+    <groups>
+      <run>
+        <include name="VCT Tab - Payments"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="checkVendorCommercialPaymentDetailsPopUp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- VCT Tab - Payments(failed) -->
+  <test thread-count="5" name="Technician Close Tab(failed)">
+    <groups>
+      <run>
+        <include name="Technician Close Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="login"/>
+          <include name="CheckNotificationWithSelectionInTechnicianCloseTab"/>
+          <include name="CheckNotificationWithoutSelectionInTechnicianCloseTab"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Technician Close Tab(failed) -->
+  <test thread-count="5" name="Cancel Ticket Tab(failed)">
+    <groups>
+      <run>
+        <include name="Cancel Ticket Tab"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole">
+        <methods>
+          <include name="viewTicket"/>
+          <include name="CheckCancelButtonCancelTicketDetails"/>
+          <include name="CheckCancelButtonWithAllFieldFill"/>
+          <include name="CheckWithBlankCancelReasonField"/>
+          <include name="login"/>
+          <include name="CheckResolutionFieldIsNotEditable"/>
+          <include name="CheckCancelTicketDetailPOpUp"/>
+        </methods>
+      </class> <!-- com.UnoPoint.TestCases.ViewTicketPageTestCaseOfSdRole -->
+    </classes>
+  </test> <!-- Cancel Ticket Tab(failed) -->
+</suite> <!-- Failed suite [Uno Point Service System] -->
