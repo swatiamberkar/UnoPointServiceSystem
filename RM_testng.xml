@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<!-- parallel="tests" -->
+
+	<listeners>
+		<listener class-name="com.uno.extentReportListener.ExtentReporterNG" />
+
+
+	<!-- 	<listener class-name="com.uno.analyzer.MyTransformer" /> -->
+
+
+	</listeners>
+
+	
+	<test name="RM_CreateNewTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_CreateNewTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_ViewIncidentTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ViewIncidentTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_EditIncidentTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_EditIncidentTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_ViewSubTicketTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ViewSubTicketTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_ToDoTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ToDoTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_DailyActivityTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_DailyActivityTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_EngineerActivityTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_EngineerActivityTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_ManagerActivityTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ManagerActivityTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_MyAvailabilityTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_MyAvailabilityTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_EngineerAvailabilityTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_EngineerAvailabilityTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_EngineerAttendanceTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_EngineerAttendanceTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_AttendanceApprovalTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_AttendanceApprovalTest" />
+		</classes>
+	</test>
+	
+		<test name="RM_TransactInventoryTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_TransactInventoryTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_TransactionRegisterTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_TransactionRegisterTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_StockReportTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_StockReportTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_SpareApprovalTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_SpareApprovalTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_CreateNewClaimTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_CreateNewClaimTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_ReimbursementAgainstAdvanceTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ReimbursementAgainstAdvanceTest" />
+		</classes>
+	</test>
+	
+	<test name="RM_ViewMyClaimTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ViewMyClaimTest" />
+		</classes>
+	</test>
+	
+					
+	<test name="RM_ClaimApprovalTest">
+		<classes>
+			<class name="com.uno.test.rm.RM_ClaimApprovalTest" />
+		</classes>
+	</test>
+	
+		
+
+</suite> 
