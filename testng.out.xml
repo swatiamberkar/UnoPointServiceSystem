@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<!-- parallel="tests" -->
+
+	<listeners>
+		<listener class-name="com.uno.extentReportListener.ExtentReporterNG" />
+
+
+	<!-- 	<listener class-name="com.uno.analyzer.MyTransformer" /> -->
+
+
+	</listeners>
+
+	
+	<test name="BasicFlowTest">
+
+		<classes>
+			<class name="com.uno.test.BasicFlowTest" >
+			    <methods>
+			
+           <include name="TicketFlowUptoTechClose"/>
+            
+         
+        </methods>
+			
+		</class>
+		</classes>
+	</test>
+
+</suite> 
